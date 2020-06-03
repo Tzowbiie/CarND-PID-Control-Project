@@ -69,7 +69,7 @@ double value = -Kp*p_error - Ki*i_error - Kd*d_error;
 | -- | -- | -- |
 | 0.45 | 0.00 | 0.5 |
 
-* The result of the simulation using these parameters can be found in **videos/track.mp4**.
+* The result of the simulation using these parameters can be found in **testdrive_pid.mp4**.
 ![Screenshot Test Drive](https://github.com/Tzowbiie/CarND-PID-Control-Project/blob/master/screenshot_testdrive.JPG)
 ## Dependencies
 
