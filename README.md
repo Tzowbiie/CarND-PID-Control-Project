@@ -13,7 +13,7 @@ The goal of the project is to implement a PID Controller that will be able to dr
 
 A PID controller is based on following differential equation:
 
-![PID mathematical formula](CarND-PID-Control-Project/PID_formula.jpg)
+![PID mathematical formula](https://github.com/Tzowbiie/CarND-PID-Control-Project/blob/master/PID_formula.jpg)
 
 * Kp - the proportional term 
   - Deals with how far the vehicle is from its target(the center of the road) and how hard does it need to steer back in order to reach that target
@@ -49,11 +49,11 @@ A PID controller is based on following differential equation:
 ```
 double pre_cte = p_error;
 
-  p_error  = cte;
-  i_error += cte;
-  d_error  = cte - pre_cte;
+p_error  = cte;
+i_error += cte;
+d_error  = cte - pre_cte;
   
-  double value = -Kp*p_error - Ki*i_error - Kd*d_error;
+double value = -Kp*p_error - Ki*i_error - Kd*d_error;
 ```
 ### Final tunning values and results
 
