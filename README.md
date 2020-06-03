@@ -45,7 +45,7 @@ A PID controller is based on following differential equation, where e(t) is the 
    | 0.15 | 0.00 | 1.50 | car is a lot more centered on the track, less movement from left to right, car stays on track |
    | 0.10 | 0.00 | 1.50 | car is centered on the track most of the time, car is stable and stays on track |
 
-2. Calculate the steering value as shown in the formula above
+2. Calculate the error value which is needed to calculate the discrete form of the above mentioned differential equation:
 ```
 double pre_cte = p_error;
 
