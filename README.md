@@ -11,7 +11,7 @@ The goal of the project is to implement a PID Controller that will be able to dr
 
 ### Influence of constants on the vehicle behaviour
 
-A PID controller is based on following differential equation:
+A PID controller is based on following differential equation, where e(t) is the error over time:
 
 ![PID mathematical formula](https://github.com/Tzowbiie/CarND-PID-Control-Project/blob/master/PID_formula.jpg)
 
